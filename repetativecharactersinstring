@@ -8,7 +8,7 @@ public class Program
 	public static void Main()
 	{
 		//Read the string from the console
-		string str = Console.ReadLine();
+	       	string str = Console.ReadLine();
 		//Create a dictionary object to hold the name value pairs
             Dictionary<Char, int> dict = new Dictionary<Char, int>();
             for (int i = 0; i < str.Length; i++)
@@ -27,15 +27,10 @@ public class Program
                     dict.Add(c, 1);
                 }
             }
-			
-			//iterate through the key value pairs and read it 
+          //iterate through the key value pairs and read it 
             foreach (KeyValuePair<Char, int> b in dict)
             {
                 Console.WriteLine("{0}, {1}", b.Key, b.Value);
             }
-		
-
-		
-		
 	}
 }
