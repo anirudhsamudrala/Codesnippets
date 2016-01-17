@@ -1,4 +1,3 @@
-
 //Find the repetative characters in a string in C# , without using hashmap
 using System;
 using System.Collections.Generic;

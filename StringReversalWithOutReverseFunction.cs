@@ -1,8 +1,7 @@
 using System;
-
+//This program is an example to reverse a string without using inbuilt string reverse funtion
 class stringfunction
 {
-
 	public string ReverseString(string sz)
 	{
     string result = string.Empty;
