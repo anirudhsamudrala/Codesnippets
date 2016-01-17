@@ -9,7 +9,8 @@ public class DelegateExample
      public static void PrintString(string str)
      {     
 		 Console.WriteLine(str); 
-	   }
+     	
+     }
      public static void Main()
      {
         //Instantiating the Delegate by passing PrintString function
